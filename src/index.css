@@ -42,6 +42,17 @@
   max-width: 20%;
 }
 
+.cc{
+  width: 50%;
+}
+
+@media (max-width: 1098px) {
+  .col-5-per-row {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
 @media (max-width: 768px) {
   .col-5-per-row {
     flex: 0 0 50%;
@@ -53,5 +64,14 @@
   .col-5-per-row {
     flex: 0 0 100%;
     max-width: 100%;
+    margin: 0;
+  }
+  .movie-details {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .movie-details .cc{
+    width: 100%;
   }
 }
