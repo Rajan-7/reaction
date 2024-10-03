@@ -8,9 +8,22 @@
   background-size: contain;
 }
 
+.card-body {
+  flex-grow: 1;
+}
+
 .card-image img {
   width: 100%;
-  height: 350px;
+  height: 325px;
+}
+
+.avatar {
+  height: 70px;
+  width: 70px;
+}
+
+.card-image {
+  position: relative;
 }
 
 .round-span {
@@ -23,7 +36,7 @@
   color: #fff;
   font-size: 13px;
   position: absolute;
-  top: 75%;
+  top: 92.7%;
   right: 75%;
   border: 2px solid green;
   border-radius: 50%;
@@ -42,7 +55,7 @@
   max-width: 20%;
 }
 
-.cc{
+.cc {
   width: 50%;
 }
 
@@ -71,7 +84,16 @@
     margin: 0;
   }
 
-  .movie-details .cc{
+  .movie-details .cc {
     width: 100%;
+  }
+
+  .mq-576 {
+    text-align: center;
+  }
+
+  .hh{
+    flex-direction: column;
+    margin-bottom: 20px;
   }
 }

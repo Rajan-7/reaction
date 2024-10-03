@@ -4,7 +4,7 @@ const Moviecard = ({ movie }) => {
   return (
     <>
       <div className="col-5-per-row">
-        <div className="card bg-white">
+        <div className="card bg-white h-100">
           <div className="card-image">
             <a href={`/moviestatus/${movie.id}`}>
               <img
@@ -12,8 +12,9 @@ const Moviecard = ({ movie }) => {
                 alt=""
               />
             </a>
+            <span className="round-span">{Math.floor(movie.vote_average)}</span>
           </div>
-          <span className="round-span">{Math.floor(movie.vote_average)}</span>
+          {/* <span className="round-span">{Math.floor(movie.vote_average)}</span> */}
           <div className="card-body text-start">
             <a href="/">
               <span className="text-dark fw-bold">{movie.title}</span>

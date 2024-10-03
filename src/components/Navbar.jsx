@@ -58,6 +58,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
+                  {/* <input type="text" id="search" className="mx-1"/> */}
                   <i className="fa-solid fa-magnifying-glass"></i>
                 </a>
               </li>
